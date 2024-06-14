@@ -17,7 +17,7 @@ from langchain.chains.openai_functions import (
 class ToneEnum(str, Enum):
     positive = "positive"
     negative = "negative"
-
+)
 
 class Email(BaseModel):
     """Relevant information about an email."""
