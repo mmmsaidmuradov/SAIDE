@@ -1,6 +1,6 @@
 # SAIDE
 SAIDE
-import os
+import oss
 import glob
 
 from typing import Optional, List
