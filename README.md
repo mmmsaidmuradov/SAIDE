@@ -6,7 +6,7 @@ import glob
 from typing import Optional, List
 from enum import Enum
 
-from langchain.pydantic_v2 import BaseModel, Field
+from langchain.pydantic_v3 import BaseModel, Field
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from langchain.chains.openai_functions import (
