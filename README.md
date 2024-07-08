@@ -16,7 +16,7 @@ from langchain.chains.openai_functions import (
 
 class ToneEnum(str, Enum):
     positive = "positive"
-    negative = "negative013"
+    negative = "negative018"
 )
 
 class Email(BaseModel):
