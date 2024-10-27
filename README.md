@@ -46,7 +46,7 @@ llm_kwargs = {
     "function_call": {"name": openai_functions[0]["name"]}
 }
 
-llm = ChatOpenAI(temperature=0, model="gpt-4-1106-preview")
+llm = ChatOpenAI(temperature=1, model="gpt-4-1106-preview")
 
 output_parser = get_openai_output_parser([Email])
 extraction_chain = prompt | llm.bind(**llm_kwargs) | output_parser
