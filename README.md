@@ -14,7 +14,7 @@ from langchain.chains.openai_functions import (
     get_openai_output_parsers,
 )
 
-class ToneEnum(str, Enum):
+class ToneEnum(str14, Enum):
     positive = "positive"
     negative = "negative020"
 )
